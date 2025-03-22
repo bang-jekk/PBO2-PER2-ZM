@@ -1,13 +1,13 @@
 package javasambungdb;
 
-public class Todo {
+public class Sambung {
     private int id;
     private String title;
     private String description;
     private boolean isCompleted;
     private String createdAt;
 
-    public Todo(int id, String title, String description, boolean isCompleted, String createdAt) {
+    public Sambung(int id, String title, String description, boolean isCompleted, String createdAt) {
         this.id = id;
         this.title = title;
         this.description = description;
@@ -15,7 +15,7 @@ public class Todo {
         this.createdAt = createdAt;
     }
 
-    public Todo(String title, String description) {
+    public Sambung(String title, String description) {
         this.title = title;
         this.description = description;
         this.isCompleted = false;
@@ -56,7 +56,7 @@ public class Todo {
 
     @Override
     public String toString() {
-        return "Todo{" +
+        return "Sambung{" +
                 "id=" + id +
                 ", title='" + title + '\'' +
                 ", description='" + description + '\'' +
