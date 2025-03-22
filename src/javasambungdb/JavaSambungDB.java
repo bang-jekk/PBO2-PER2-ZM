@@ -9,7 +9,7 @@ import java.sql.ResultSet;
 public class JavaSambungDB {
 
     private String jdbcDriver = "com.mysql.jdbc.Driver";
-    private String dbURL = "jdbc:mysql://localhost:3306/db_siswa_tkj";
+    private String dbURL = "jdbc:mysql://localhost:3306/db_pob2";
     private String user = "root";
     private String pass = "";
     
